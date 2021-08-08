@@ -18,7 +18,7 @@ class Pomodoro extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Expanded(
+          const Expanded(
             child: Cronometro(),
           ),
           Padding(

@@ -23,22 +23,22 @@ class Cronometro extends StatelessWidget {
                 store.isTrabalhando()
                     ? 'Hora de Trabalhar'
                     : 'Hora de Descansar',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 40,
                   color: Colors.white,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text(
                 '${store.minutos.toString().padLeft(2, '0')}:${store.segundos.toString().padLeft(2, '0')}',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 120,
                   color: Colors.white,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(

@@ -26,19 +26,19 @@ class EntradaTempo extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
-          this.titulo,
+          titulo,
           style: const TextStyle(
             fontSize: 25,
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: this.dec,
+              onPressed: dec,
               child: const Icon(
                 Icons.arrow_downward,
                 color: Colors.white,
@@ -50,13 +50,13 @@ class EntradaTempo extends StatelessWidget {
               ),
             ),
             Text(
-              '${this.valor} min',
+              '$valor min',
               style: const TextStyle(
                 fontSize: 18,
               ),
             ),
             ElevatedButton(
-              onPressed: this.inc,
+              onPressed: inc,
               child: const Icon(
                 Icons.arrow_upward,
                 color: Colors.white,

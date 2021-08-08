@@ -32,7 +32,7 @@ abstract class _PomodoroStore with Store {
   @action
   void iniciar() {
     iniciado = true;
-    cronometro = Timer.periodic(Duration(seconds: 1), (timer) {
+    cronometro = Timer.periodic(const Duration(milliseconds: 50), (timer) {
       if (minutos == 0 && segundos == 0) {
         _trocarTipoIntervalo();
       } else if (segundos == 0) {
