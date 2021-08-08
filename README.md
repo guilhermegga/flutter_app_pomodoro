@@ -1,6 +1,11 @@
 # pomodoro_mobxx
 
 Primeiro projeto completo feito em flutter.
-Neste projeto utilizo conceitos de Mobx para gerenciamento de estado dos componentes
+Neste projeto utilizo conceitos de Mobx para gerenciamento de estado dos componentes.
 
-<iframe src="https://drive.google.com/file/d/1k9Fi-2Qkj21eGNNYFYzYsN9Tf_D6u2Dy/preview" width="640" height="480"></iframe>
+Caso houver algum erro execute o comando abaixo para que seja modificado os stores que executam as funçoes de estado dos componentes.
+```
+flutter pub run build_runner watch --delete-conflicting-outputs
+```
+
+![image](https://drive.google.com/uc?export=view&id=1Wt7snfBmODwELQ3jrLHFyy34FQzYIX9- "Teste Pomodoro")
